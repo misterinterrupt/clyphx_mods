@@ -270,6 +270,7 @@ class ClyphX(ControlSurface):
                     self.log_message(trackname + ' ' + str(i))
                     range_end = i
                     break
+            
             for t in range(range_start, range_end + 1):
                 self.log_message(tracks[t].name + ' ' + str(t))
                 result_track.append(tracks[t])
